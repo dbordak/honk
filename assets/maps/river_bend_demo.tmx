@@ -1,0 +1,6406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-up" width="20" height="20" tilewidth="16" tileheight="16" nextobjectid="13">
+ <tileset firstgid="1" name="blowharder" tilewidth="16" tileheight="16" tilecount="4408" columns="116">
+  <image source="../sprites/blowharder.png" width="1856" height="608"/>
+  <tile id="116">
+   <properties>
+    <property name="spawn" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="spawn" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="235">
+   <properties>
+    <property name="spawn" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="733">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="734">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="734" duration="200"/>
+    <frame tileid="735" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="735">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="736">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="737">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="738">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="739">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="740">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="741">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="742">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="743">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="744">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="745">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="746">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="747">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="748">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="749">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="750">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="751">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="752">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="753">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="754">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="755">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="756">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="757">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="758">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="759">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="849">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="850">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="850" duration="200"/>
+    <frame tileid="851" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="851">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="852">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="853">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="854">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="855">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="856">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="857">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="858">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="859">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="860">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="861">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="862">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="863">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="864">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="865">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="866">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="867">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="868">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="869">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="870">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="871">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="872">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="873">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="874">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="875">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="965">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="966">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="966" duration="200"/>
+    <frame tileid="967" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="967">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="968">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="969">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="970">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="971">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="972">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="973">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="974">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="975">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="976">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="977">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="978">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="979">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="980">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="981">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="982">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="983">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="984">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="985">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="986">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="987">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="988">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="989">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="990">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="991">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1081">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1082">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="1082" duration="200"/>
+    <frame tileid="1083" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1083">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1084">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1085">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1086">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1087">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1088">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1089">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1090">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1091">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1092">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1093">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1094">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1095">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1096">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1097">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1098">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1099">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1100">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1101">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1102">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1103">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1104">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1105">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1106">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1107">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1197">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1198">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="1198" duration="200"/>
+    <frame tileid="1199" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1199">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1200">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1201">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1202">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1203">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1204">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1205">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1206">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1207">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1208">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1209">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1210">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1211">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1212">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1213">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1214">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1215">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1216">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1217">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1218">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1219">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1220">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1221">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1222">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1223">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1313">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1314">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="1314" duration="200"/>
+    <frame tileid="1315" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1315">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1316">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1317">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1318">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1319">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1320">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1321">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1322">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1323">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1324">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1325">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1326">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1327">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1328">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1329">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1330">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1331">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1332">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1333">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1334">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1335">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1336">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1337">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1338">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1339">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1429">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1430">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="1430" duration="200"/>
+    <frame tileid="1431" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1431">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1432">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1433">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1434">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1435">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1436">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1437">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1438">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1439">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1440">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1441">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1442">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1443">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1444">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1445">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1446">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1447">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1448">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1449">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1450">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1451">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1452">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1453">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1454">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1455">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1545">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1546">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="yellow"/>
+   </properties>
+   <animation>
+    <frame tileid="1546" duration="200"/>
+    <frame tileid="1547" duration="200"/>
+    <frame tileid="1545" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1547">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1548">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1549">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1550">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1551">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1552">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1553">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="1554">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1555">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1556">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1557">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1558">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1559">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1560">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1561">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1562">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="white"/>
+   </properties>
+  </tile>
+  <tile id="1563">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1564">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1565">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1566">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1567">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1568">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1569">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1570">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1571">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="pink"/>
+   </properties>
+  </tile>
+  <tile id="1661">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1662">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="1662" duration="200"/>
+    <frame tileid="1663" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1663">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1664">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1665">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1666">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1667">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1668">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1669">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1670">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1671">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1672">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1673">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1674">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1675">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1676">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1677">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1678">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1679">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1680">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1681">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1682">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1683">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1684">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1685">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1686">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1687">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1777">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1778">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="1778" duration="200"/>
+    <frame tileid="1779" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1779">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1780">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1781">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1782">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1783">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1784">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1785">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1786">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1787">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1788">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1789">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1790">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1791">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1792">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1793">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1794">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1795">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1796">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1797">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1798">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1799">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1800">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1801">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1802">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1803">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1805">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1806">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1807">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1808">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1809">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1810">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1811">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1812">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1813">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1814">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1815">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1816">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1817">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1818">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1819">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1820">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1821">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1893">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1894">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="1894" duration="200"/>
+    <frame tileid="1895" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="1895">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1896">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1897">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1898">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1899">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1900">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1901">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="1902">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1903">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1904">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1905">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1906">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1907">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1908">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1909">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1910">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="1911">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1912">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1913">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1914">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1915">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1916">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1917">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1918">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1919">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="1921">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1922">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1923">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1924">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1925">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1926">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1927">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1928">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1929">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1930">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="1931">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1932">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1933">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="1934">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1935">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1936">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="1937">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2009">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2010">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="2010" duration="200"/>
+    <frame tileid="2011" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2011">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2012">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2013">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2014">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2015">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2016">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2017">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2018">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2019">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2020">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2021">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2022">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2023">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2024">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2025">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2026">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2027">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2028">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2029">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2030">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2031">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2032">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2033">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2034">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2035">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2037">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2038">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2039">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2040">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2041">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2042">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2043">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2044">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2045">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2046">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2047">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2048">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2049">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2050">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2051">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2052">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2053">
+   <properties>
+    <property name="terrain" value="water"/>
+   </properties>
+  </tile>
+  <tile id="2125">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2126">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="2126" duration="200"/>
+    <frame tileid="2127" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2127">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2128">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2129">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2130">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2131">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2132">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2133">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2134">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2135">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2136">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2137">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2138">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2139">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2140">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2141">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2142">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2143">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2144">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2145">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2146">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2147">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2148">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2149">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2150">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2151">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2153">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2154">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="2155">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="2156">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2157">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2158">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2159">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2160">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2161">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2162">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2163">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2241">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2242">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="2242" duration="200"/>
+    <frame tileid="2243" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2243">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2244">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2245">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2246">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2247">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2248">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2249">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2250">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2251">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2252">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2253">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2254">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2255">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2256">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2257">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2258">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2259">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2260">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2261">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2262">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2263">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2264">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2265">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2266">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2267">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2269">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2270">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2271">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2272">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2273">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2274">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2275">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2276">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2277">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2278">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2279">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2284">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2357">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2358">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="2358" duration="200"/>
+    <frame tileid="2359" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2359">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2360">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2361">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2362">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2363">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2364">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2365">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2366">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2367">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2368">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2369">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2370">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2371">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2372">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2373">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2374">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2375">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2376">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2377">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2378">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2379">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2380">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2381">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2382">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2383">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2385">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2386">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2387">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2388">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2389">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2390">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2391">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2392">
+   <properties>
+    <property name="terrain" value="forest"/>
+   </properties>
+  </tile>
+  <tile id="2393">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2394">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2395">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2473">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2474">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="orange"/>
+   </properties>
+   <animation>
+    <frame tileid="2473" duration="200"/>
+    <frame tileid="2474" duration="200"/>
+    <frame tileid="2475" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2475">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2476">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2477">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2478">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2479">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2480">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2481">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="orange"/>
+   </properties>
+  </tile>
+  <tile id="2482">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2483">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2484">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2485">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2486">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2487">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2488">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2489">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2490">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="green"/>
+   </properties>
+  </tile>
+  <tile id="2491">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2492">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2493">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2494">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2495">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2496">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2497">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2498">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2499">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="red"/>
+   </properties>
+  </tile>
+  <tile id="2501">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2502">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2503">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2504">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2505">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2506">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2507">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2508">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2509">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2510">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2511">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2512">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2513">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2514">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2515">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2516">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2517">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2589">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2590">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="2590" duration="200"/>
+    <frame tileid="2591" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2591">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2592">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2593">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2594">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2595">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2596">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2597">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2598">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2599">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2600">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2601">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2602">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2603">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2604">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2605">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2606">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2607">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2608">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2609">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2610">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2611">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2612">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2613">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2614">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2615">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2617">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2618">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2619">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2620">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2621">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2622">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2623">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2624">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2625">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2626">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2627">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2628">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2629">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2630">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2631">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2632">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2633">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2705">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2706">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="2706" duration="200"/>
+    <frame tileid="2707" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2707">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2708">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2709">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2710">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2711">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2712">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2713">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2714">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2715">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2716">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2717">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2718">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2719">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2720">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2721">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2722">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2723">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2724">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2725">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2726">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2727">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2728">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2729">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2730">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2731">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2733">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2734">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2735">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2736">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2737">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2738">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2739">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2740">
+   <properties>
+    <property name="terrain" value="hills"/>
+   </properties>
+  </tile>
+  <tile id="2741">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2742">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2743">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2744">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2745">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2746">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2747">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2748">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2749">
+   <properties>
+    <property name="terrain" value="road"/>
+   </properties>
+  </tile>
+  <tile id="2821">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2822">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="2822" duration="200"/>
+    <frame tileid="2823" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2823">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2824">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2825">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2826">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2827">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2828">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2829">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2830">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2831">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2832">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2833">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2834">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2835">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2836">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2837">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2838">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2839">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2840">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2841">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2842">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2843">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2844">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2845">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2846">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2847">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2849">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2850">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2851">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2852">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2854">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2855">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2856">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2857">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2858">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2859">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2860">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2861">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2862">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2863">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2864">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2865">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2937">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2938">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="2938" duration="200"/>
+    <frame tileid="2939" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="2939">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2940">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2941">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2942">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2943">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2944">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2945">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="2946">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2947">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2948">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2949">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2950">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2951">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2952">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2953">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2954">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="2955">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2956">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2957">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2958">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2959">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2960">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2961">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2962">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2963">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="2965">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2966">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="2967">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="2968">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2970">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2971">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2972">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2973">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2974">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="2975">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2976">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2977">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2978">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2979">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2980">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="2981">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3053">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3054">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="3054" duration="200"/>
+    <frame tileid="3055" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3055">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3056">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3057">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3058">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3059">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3060">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3061">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3062">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3063">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3064">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3065">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3066">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3067">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3068">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3069">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3070">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3071">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3072">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3073">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3074">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3075">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3076">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3077">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3078">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3079">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3081">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3082">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="3083">
+   <properties>
+    <property name="terrain" value="building"/>
+   </properties>
+  </tile>
+  <tile id="3084">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3085">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="3086">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="3087">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="3088">
+   <properties>
+    <property name="terrain" value="mountains"/>
+   </properties>
+  </tile>
+  <tile id="3089">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3090">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3091">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3092">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3093">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3094">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3095">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3096">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3097">
+   <properties>
+    <property name="terrain" value="plains"/>
+   </properties>
+  </tile>
+  <tile id="3169">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3170">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="3170" duration="200"/>
+    <frame tileid="3171" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3171">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3172">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3173">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3174">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3175">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3176">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3177">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3178">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3179">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3180">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3181">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3182">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3183">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3184">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3185">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3186">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3187">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3188">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3189">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3190">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3191">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3192">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3193">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3194">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3195">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3285">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3286">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="3286" duration="200"/>
+    <frame tileid="3287" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3287">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3288">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3289">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3290">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3291">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3292">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3293">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3294">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3295">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3296">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3297">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3298">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3299">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3300">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3301">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3302">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3303">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3304">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3305">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3306">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3307">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3308">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3309">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3310">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3311">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3401">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3402">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="blue"/>
+   </properties>
+   <animation>
+    <frame tileid="3401" duration="200"/>
+    <frame tileid="3402" duration="200"/>
+    <frame tileid="3403" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3403">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3404">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3405">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3406">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3407">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3408">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3409">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="blue"/>
+   </properties>
+  </tile>
+  <tile id="3410">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3411">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3412">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3413">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3414">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3415">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3416">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3417">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3418">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep purple"/>
+   </properties>
+  </tile>
+  <tile id="3419">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3420">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3421">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3422">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3423">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3424">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3425">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3426">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3427">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="deep pink"/>
+   </properties>
+  </tile>
+  <tile id="3517">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3518">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="3518" duration="200"/>
+    <frame tileid="3519" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3519">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3520">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3521">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3522">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3523">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3524">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3525">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3526">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3527">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3528">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3529">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3530">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3531">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3532">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3533">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3534">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3535">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3536">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3537">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3538">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3539">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3540">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3541">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3542">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3543">
+   <properties>
+    <property name="character" value="dude"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3633">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3634">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="3634" duration="200"/>
+    <frame tileid="3635" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3635">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3636">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3637">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3638">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3639">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3640">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3641">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3642">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3643">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3644">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3645">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3646">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3647">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3648">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3649">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3650">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3651">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3652">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3653">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3654">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3655">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3656">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3657">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3658">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3659">
+   <properties>
+    <property name="character" value="dudess"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3749">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3750">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="3750" duration="200"/>
+    <frame tileid="3751" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3751">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3752">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3753">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3754">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3755">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3756">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3757">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3758">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3759">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3760">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3761">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3762">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3763">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3764">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3765">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3766">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3767">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3768">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3769">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3770">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3771">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3772">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3773">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3774">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3775">
+   <properties>
+    <property name="character" value="skeleton"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3865">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3866">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="3866" duration="200"/>
+    <frame tileid="3867" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3867">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3868">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3869">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3870">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3871">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3872">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3873">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3874">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3875">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3876">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3877">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3878">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3879">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3880">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3881">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3882">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3883">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3884">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3885">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3886">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3887">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3888">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3889">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3890">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3891">
+   <properties>
+    <property name="character" value="knight"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="3981">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3982">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="3982" duration="200"/>
+    <frame tileid="3983" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3983">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3984">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3985">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3986">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3987">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3988">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3989">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="3990">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3991">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3992">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3993">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3994">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3995">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3996">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3997">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3998">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="3999">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4000">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4001">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4002">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4003">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4004">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4005">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4006">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4007">
+   <properties>
+    <property name="character" value="mushroom"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4097">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4098">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="4098" duration="200"/>
+    <frame tileid="4099" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4099">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4100">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4101">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4102">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4103">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4104">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4105">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4106">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4107">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4108">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4109">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4110">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4111">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4112">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4113">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4114">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4115">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4116">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4117">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4118">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4119">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4120">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4121">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4122">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4123">
+   <properties>
+    <property name="character" value="mage"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4213">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4214">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="4214" duration="200"/>
+    <frame tileid="4215" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4215">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4216">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4217">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4218">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4219">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4220">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4221">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4222">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4223">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4224">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4225">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4226">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4227">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4228">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4229">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4230">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4231">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4232">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4233">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4234">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4235">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4236">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4237">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4238">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4239">
+   <properties>
+    <property name="character" value="snake"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4329">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4330">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="black"/>
+   </properties>
+   <animation>
+    <frame tileid="4329" duration="200"/>
+    <frame tileid="4330" duration="200"/>
+    <frame tileid="4331" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4331">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4332">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4333">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4334">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4335">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4336">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4337">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="black"/>
+   </properties>
+  </tile>
+  <tile id="4338">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4339">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4340">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4341">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4342">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4343">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4344">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4345">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4346">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="cyan"/>
+   </properties>
+  </tile>
+  <tile id="4347">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4348">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="mode" value="idle"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4349">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4350">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4351">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4352">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4353">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4354">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+  <tile id="4355">
+   <properties>
+    <property name="character" value="slime"/>
+    <property name="team" value="purple"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="World Layer" width="20" height="20">
+  <data encoding="csv">
+2157,2157,1935,1937,1937,1937,1937,1938,2157,2157,2157,2157,2157,2155,2634,2157,2157,2157,2971,2972,
+1923,2157,1935,1937,1937,1937,1932,1938,2157,2157,2157,2157,2157,2157,2634,2157,2157,2157,2971,2972,
+2050,2050,2051,1937,1937,1937,1937,1938,2157,2042,2157,2157,2157,2157,2634,2157,1923,2157,2971,2972,
+1937,1937,1937,1937,1937,1937,1937,1938,2157,2157,2157,1923,2157,1808,2634,2157,2157,2157,2971,2972,
+1937,1932,1937,1937,1937,1937,1937,1938,2157,2157,2157,2157,2157,2157,2634,2157,2157,2157,2971,2972,
+1937,1937,1937,1937,1937,1937,1937,1938,2157,2157,2157,2157,2042,2157,2634,2157,2157,2157,2971,2972,
+1937,1937,1937,1937,1937,1932,1937,1938,1811,1812,1813,2157,2157,2157,2634,2157,2157,2157,2971,2972,
+2053,2053,2053,2053,2053,2053,2053,2054,1927,1928,1928,1813,2157,2157,2634,2157,1923,2157,2971,2972,
+2157,2157,2157,2157,2157,2157,1811,1812,1814,1928,1928,1928,1812,1813,2634,2157,2157,2157,2971,2972,
+2157,2157,2042,2157,2157,1808,1927,1928,1930,1928,1928,1928,1928,1929,2634,2157,2157,2157,2971,2972,
+1808,2157,2157,1923,2157,2157,2043,1928,1928,1815,1928,1815,1928,2045,2634,2157,2157,2157,2971,2972,
+2157,2157,2157,2157,2157,2157,2157,2043,1928,1931,1814,1931,1928,1813,2634,2157,1807,2157,2971,2972,
+2157,2157,2157,2157,2157,2042,2157,2157,1927,1928,1930,1928,1928,1929,2634,2507,2508,2509,2971,2972,
+2155,2157,2157,1808,2157,2157,2157,2157,2043,2044,2045,2043,2044,2045,2634,2623,2624,2625,2971,2972,
+2749,2749,2749,2749,2749,2749,2749,2749,2749,2749,2749,2749,2749,2749,2750,2623,2624,2625,2971,2972,
+2157,2157,2157,2157,1923,2157,2157,2157,2157,2157,1808,2157,2507,2508,2508,2624,2624,2625,2971,2972,
+2157,2157,2157,2157,2157,2157,2157,2157,2157,1923,2157,2157,2623,2624,2624,2624,2624,2741,2971,2972,
+2157,2157,2157,1808,2157,2157,2157,2157,2157,2157,2157,2157,2739,2740,2740,2740,2741,2855,2972,2972,
+2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2856,2972,2972,2972,
+2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972,2972
+</data>
+ </layer>
+ <layer name="Sprite Layer" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,236,236,236,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,236,236,236,236,236,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,236,236,236,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,117,117,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,117,117,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,117,117,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
